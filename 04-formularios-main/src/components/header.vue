@@ -1,16 +1,16 @@
 <template>
-    <div class="row">
-      <div class="col-12 col-md-3">
-        <h1>FORMULARIOS EB</h1>
-      </div>
-      <div class="col-12 col-md-3">
-        <img :src="url" :alt="alt" width="100">
-      </div>
+  <div class="row">
+    <div class="col-12 col-md-3">
+      <h1>FORMULARIOS | ALS</h1>
     </div>
-    <hr>
-  </template>
+    <div class="col-12 col-md-3">
+      <img :src="url" :alt="alt" width="100">
+    </div>
+  </div>
+  <hr>
+</template>
   
-  <script>
+<script>
     export default {
       data: () => ({
         url: "https://cdn.svgporn.com/logos/vue.svg",
